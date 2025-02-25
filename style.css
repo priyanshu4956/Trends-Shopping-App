@@ -325,8 +325,6 @@ ul li i:hover {
     margin-top: 30px;
 }
 
-/* /contact */
-
 .contact {
     display: none;
 }
@@ -349,13 +347,6 @@ ul li i:hover {
     padding: 33px;
     margin: auto;
     margin-top: 7%;
-    /* 
-    display: flex;
-    justify-content: center;
-    width: 1000px;
-    margin-top: 5%;
-    background-color: #fff;
-    margin-left: 10%; */
 
 }
 
@@ -615,7 +606,13 @@ ul li i:hover {
         text-overflow: ellipsis;
         justify-content: start;
     }
-
+    .blogText h2{
+        font-size: 26px;
+        margin-top: -15px;
+    }
+    .blog img{
+        width: 150px;
+    }
     .blogText::-webkit-scrollbar {
         display: none;
     }
